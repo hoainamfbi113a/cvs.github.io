@@ -149,3 +149,22 @@ hr{
   margin-top: 10px;
   border-top: 2px solid #555;
 }
+@media only screen and (max-width: 600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Left-info{
+    width: 100%;
+    margin-top: -15px;
+  }
+  .Right-infordetail {
+    height: 100%;
+    /* height: 107vh;
+    display: flex;
+    grid-template-rows: repeat(5,1fr); */
+    display: flex; 
+     flex-direction: column; 
+}
+}
