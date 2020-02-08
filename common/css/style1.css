@@ -136,11 +136,11 @@ p i{
  color: #ffd900;
 }
 .Right-infordetail{
-  height: 107vh;
-  display: grid;
-  grid-template-rows: repeat(5,1fr);
-  /* display: flex; */
-  /* flex-direction: column; */
+  /* height: 10vh; */
+  /* display: grid; */
+  /* grid-template-rows: repeat(6,1fr); */
+  display: flex;
+  flex-direction: column;
 }
 .Right-infordetail  h2{
   color: #640297;
